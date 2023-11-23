@@ -1,0 +1,61 @@
+.banner-top{
+    background-image: url(../img/banners/fundo/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 20px 0px 20px ;
+}
+
+.banner-top h1{
+    font-size: 80px;
+    font-family: "Dosis", Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+main{
+    padding: 30px 0 30px 0;
+}
+
+.sobre-texto{
+    width: 97%;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.beneficios p{
+    padding-bottom: 20px;
+}
+
+.beneficios li{
+    padding: 10px 0 5px 0;
+    font-size: 19px;
+    text-align: justify;
+    width: 96%;
+    font-style: oblique;
+}
+
+.sustent{
+    background-image: url(../img/banners/fundo/sobresus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 0 0 50px ;
+}
+
+.sustent h2, .sustent h4{
+    color: #ffffff;
+}
+
+.sustent p{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
+    padding: 15px;
+}

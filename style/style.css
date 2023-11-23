@@ -1,0 +1,72 @@
+/* INICIO CABEÇALHO */
+
+header{
+    background-color: #ffeec7;
+    border-bottom:1px solid #dcdcdc;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+    column-gap: 20px;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu a{
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #462f00;
+    text-decoration: none;
+    padding: 2px 5px 2px 5px;
+}
+
+.menu a:hover{
+    transition: 0.2s;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    text-shadow: 0px 0px 2px #000000;
+    border-top: 3px solid #398143;
+    border-bottom: 3px solid #398143;
+    
+}
+
+/* FIM CABEÇALHO */
+
+/* INICIO RODAPÉ */
+
+.banner-rodape{
+    width: 100%;
+    height: 200px;
+    background-image: url("../img/banners/fundo/banner-rodape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.midiasSociais{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding-bottom: 20px;
+    align-items: end;
+    column-gap: 10px;
+}
+
+.copyright{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background-color: #398143;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* FIM RODAPÉ */

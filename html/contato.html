@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style-contato.css">
+    <link rel="shortcut icon" href="../img/favicon/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800" rel="stylesheet">
+    <script src="../js/api.js"></script>
+    <title>Contato - Brasilidades Chocolateria</title>
+</head>
+
+<body>
+    <!-- INICIO CABEÇALHO -->
+    <header>
+        <div class="container p-4 ">
+            <div class="row" style="align-items: center;">
+                <div class="col-4">
+                    <a href="../index.html">
+                        <img src="../img/logotipo/logotipo2.gif" width="240px" alt="Logotipo">
+                    </a>
+                </div>
+                <div class="col-4">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Encontre aqui..."
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+                <nav class="col-4">
+                    <ul class="menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../html/sobre.html">Sobre</a></li>
+                        <li><a href="../html/contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- FIM CABEÇALHO -->
+
+    <div class="banner-top">
+        <div class="container p-4">
+            <h1>Contato</h1>
+        </div>
+    </div>
+
+    <main>
+        <div class="container p-4">
+            <div class="row">
+                <div class="col">
+                    <h5>
+                        Olá,
+                    </h5>
+                    <div class="texto-contato">
+                        <p>
+                            Obrigado por entrar em contato com a nossa empresa de chocolates sustentáveis. Estamos
+                            felizes
+                            em receber sua mensagem e estamos à disposição para responder a todas as suas perguntas e
+                            comentários.
+                        </p>
+                        <p>
+                            Nosso compromisso com a sustentabilidade se reflete em todas as etapas do processo de
+                            produção.
+                            Trabalhamos em estreita colaboração com agricultores locais, valorizando a agricultura
+                            sustentável e apoiando comunidades rurais. Utilizamos ingredientes orgânicos sempre que
+                            possível
+                            e priorizamos fornecedores comprometidos com práticas de comércio justo.
+                        </p>
+                        <p>
+                            Se você tiver dúvidas sobre os nossos produtos, processos de produção ou quiser saber mais
+                            sobre
+                            as iniciativas sustentáveis que adotamos, não hesite em entrar em contato conosco. Nossa
+                            equipe
+                            dedicada estará pronta para lhe fornecer todas as informações necessárias.
+                        </p>
+                        <p>
+                            Agradecemos por considerar nossos chocolates sustentáveis e por se juntar a nós na missão de
+                            promover um estilo de vida consciente e sustentável. Esperamos poder proporcionar a você
+                            momentos deliciosos e, ao mesmo tempo, contribuir para um planeta mais saudável.
+                        </p>
+
+                        <p>
+                            Atenciosamente, <br>
+                            Equipe Brasilidades Chocolateria
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-box ">
+                        <div class="col">
+                            <h2>Fale conosco</h2>
+                            <form method="get" action=".">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="user-box">
+                                            <input type="text" name="" required="">
+                                            <label>Nome</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="user-box">
+                                            <input type="text" name="" required="">
+                                            <label>E-mail</label>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="user-box" style="padding-bottom: 10px;">
+                                            <input type="tel" name="" required="">
+                                            <label>Telefone</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="user-box" ">
+                                            <textarea  cols=" 30" rows="1" required></textarea>
+                                            <label>Mensagem</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h5>Informações de endereço: </h5>
+                                <br>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="user-box" style="padding-bottom: 10px;">
+                                            <input name="cep" type="text" id="cep" onchange="pesquisacep(this.value);" />
+                                            <label>CEP</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="user-box" style="padding-bottom: 10px;">
+                                            <input type="text" name="" required="" id="address">
+                                            <label>Endereço</label>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="user-box" style="padding-bottom: 10px;">
+                                            <input type="tel" name="" required="" id="Number">
+                                            <label>Número</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="user-box" style="padding-bottom: 10px;">
+                                            <input type="tel" name="" required="" id="bairro">
+                                            <label>Bairro</label>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="user-box" style="padding-bottom: 10px;">
+                                            <input type="tel" name="" required="" id="city">
+                                            <label>Cidade</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="user-box" style="padding-bottom: 10px;">
+                                            <input type="tel" name="" required="" id="uf">
+                                            <label>Estado</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="submit">
+                                            <a href="#">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                Enviar
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </main>
+
+    <!-- INICIO RODAPE -->
+    <div class="banner-rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col midiasSociais">
+                    <a target="_blank" href="https://facebook.com">
+                        <img src="../img/icones/facebook (1).png" alt="logotipo facebook" width="40px">
+                    </a>
+                    <a target="_blank" href="https://whatsapp.com">
+                        <img src="../img/icones/whatsapp.png" alt="logotipo whatsapp" width="40px">
+                    </a>
+                    <a target="_blank" href="https://instagram.com">
+                        <img src="../img/icones/instagram (1).png" alt="logotipo instagram" width="40px">
+                    </a>
+                    <a target="_blank" href="https://tiktok.com">
+                        <img src="../img/icones/tiktok (1).png" alt="logotipo tiktok" width="40px">
+                    </a>
+                    <a target="_blank" href="https://linkedin.com">
+                        <img src="../img/icones/linkedin (1).png" alt="logotipo linkedin" width="40px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">TODOS OS DIREITOS RESERVADOS &copy;brasilidadeschocolateria</div>
+    </footer>
+    <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <!-- FIM RODAPE -->
+</body>
+</html>
